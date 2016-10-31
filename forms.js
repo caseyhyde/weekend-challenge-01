@@ -29,12 +29,12 @@ FUNCTIONS
     $empList = $("#container").children().last(); //location to add new row to
     $empList.append('<tr class="row"></tr>'); //adds new row for new employee
     row = $('.row').last(); //location to add new employee data to
-    row.append('<td>' + empInfo.employeeFirstName + '</td>');
-    row.append('<td>' + empInfo.employeeLastName + '</td>');
-    row.append('<td>' + empInfo.IDNumber + '</td>');
-    row.append('<td>' + empInfo.jobTitle + '</td>');
-    row.append('<td>' + empInfo.annualSalary + '</td>');
-    row.append('<td><button class="delete">DELETE</button></td>'); //adds delete button
+    row.append(
+      '<td>' + empInfo.employeeFirstName + '</td><td>' +
+      empInfo.employeeLastName + '</td><td>' + empInfo.IDNumber + '</td><td>' +
+      empInfo.jobTitle + '</td><td>' +
+      empInfo.annualSalary + '</td><td><button class="delete">DELETE</button></td>'
+    );
     row.data("salary", parseInt(empInfo.annualSalary)); //stores employee salary as data on that tr
   }
 
