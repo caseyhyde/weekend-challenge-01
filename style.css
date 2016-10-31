@@ -1,0 +1,18 @@
+
+
+thead td {
+  border: solid 2px black;
+  background-color: lightgray;
+}
+
+tbody td {
+  background-color: black;
+  color: white;
+  border-right: solid 2px lightgray;
+  border-top: solid 2px lightgray;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
