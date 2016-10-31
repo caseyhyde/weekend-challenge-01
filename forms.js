@@ -53,6 +53,5 @@ FUNCTIONS
     totalMonthlySalaries = Math.round((totalSalaries/12) * 100)/100;
     $totalMonthlySalaries.replaceWith('<p>$' + totalMonthlySalaries + '</p>');
     $(this).parent().parent().remove();
-    $(this).remove();
   }
 });

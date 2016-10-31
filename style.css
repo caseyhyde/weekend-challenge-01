@@ -1,4 +1,36 @@
+body {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(26, 160, 149);
+}
 
+input {
+  display: inline-block;
+  width: 180px;
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+}
+
+#submit {
+  border-radius: 10px;
+  display: block;
+  margin: 5px auto;
+}
+
+.delete {
+  border-radius: 10px;
+}
+
+table {
+  margin: auto;
+}
+
+h1, h2, #salaryCalc {
+  text-align: center;
+}
 
 thead td {
   border: solid 2px black;

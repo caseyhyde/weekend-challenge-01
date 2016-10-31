@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>jQuery forms</h1>
+    <h1>Employee Information Form</h1>
     <section>
       <form id="employeeForm">
         <label for="employeeFirstName">First Name:</label>
-        <input type="text" id="employeeFirstName" name="employeeFirstName"  required/><br><br>
+        <input type="text" id="employeeFirstName" name="employeeFirstName" />
 
         <label for="employeeLastName">Last Name:</label>
-        <input type="text" id="employeeLastName" name="employeeLastName" required /><br><br>
+        <input type="text" id="employeeLastName" name="employeeLastName" />
 
         <label for="IDNumber">ID Number:</label>
-        <input type="text" id="IDNumber" name="IDNumber" required /><br><br>
+        <input type="text" id="IDNumber" name="IDNumber" />
 
         <label for="jobTitle">Job Title:</label>
-        <input type="text" id="jobTitle" name="jobTitle" required /><br><br>
+        <input type="text" id="jobTitle" name="jobTitle" />
 
         <label for="annualSalary">Annual Salary:</label>
-        <input type="number" id="annualSalary" name="annualSalary" required /><br><br>
+        <input type="number" id="annualSalary" name="annualSalary" required /><br>
 
-        <input type="submit" value="Submit Employee"/>
+        <input type="submit" id="submit" value="Submit Employee"/>
 
       </form>
       <h2>Employee List</h2>
@@ -42,7 +42,7 @@
         <tbody>
         </tbody>
       </table>
-      <h2>Total Monthly Salary Expenditure:</h2>
+      <h2>Total Monthly Salary Expenditure</h2>
       <div id="salaryCalc"></div>
     </section>
   </body>
